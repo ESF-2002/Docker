@@ -1,0 +1,10 @@
+version: '3'
+services:
+  convos:
+    image: nordaaker/convos
+    container_name: yassine-edn
+    ports:
+      - "2021:3000"
+    volumes:
+      - ./data:/data
+    restart: always
