@@ -2,8 +2,9 @@ FROM python:2.7
 
 WORKDIR /app
 
-COPY python-app/ /app/
-COPY python-app/requirements.txt /app/
+COPY python-app /app
+
+COPY python-app/requirements.txt /app/requirements.txt
 
 RUN pip install -r requirements.txt
 

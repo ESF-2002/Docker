@@ -2,7 +2,7 @@ version: '3'
 services:
   convos:
     image: nordaaker/convos
-    container_name: yassine-edn
+    container_name: yassine-edn-fges
     ports:
       - "2021:3000"
     volumes:
